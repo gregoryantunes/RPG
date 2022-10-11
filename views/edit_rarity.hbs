@@ -1,0 +1,11 @@
+<form action="/admin/rarity/edit" method="POST" >
+      <input type="hidden" name="id" value="{{rarity.id}}">
+  <div class="mb-3">
+    <label class="form-label">Rarity</label>
+    <input type="text" class="form-control" name="name" value="{{rarity.name}}" required>
+  </div>
+  <div class="d-flex justify-content-between">
+    <button type="submit" class="btn btn-primary" >Update rarity</button>
+    <a class="btn btn-secondary" href="/admin/rarity">Cancel</a>
+  </div>
+</form>
