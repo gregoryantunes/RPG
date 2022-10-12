@@ -15,5 +15,22 @@
     "eslint": "^8.23.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0"
-  }
+  },
+  "name": "rpg",
+  "description": "Pumat's Archive",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregoryantunes/RPG.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregoryantunes/RPG/issues"
+  },
+  "homepage": "https://github.com/gregoryantunes/RPG#readme"
 }
