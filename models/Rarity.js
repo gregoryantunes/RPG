@@ -1,6 +1,6 @@
 const { db, Sequelize } = require('../config/db');
 
-const Rarity = db.define('item_rarity', {
+const Rarity = db.define('rarity', {
   name: {
     type: Sequelize.STRING,
   },
