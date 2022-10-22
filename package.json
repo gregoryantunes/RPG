@@ -27,10 +27,14 @@
     "type": "git",
     "url": "git+https://github.com/gregoryantunes/RPG.git"
   },
-  "author": "",
+  "author": "Gregory M. Antunes",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gregoryantunes/RPG/issues"
   },
-  "homepage": "https://github.com/gregoryantunes/RPG#readme"
+  "homepage": "https://github.com/gregoryantunes/RPG#readme",
+  "keywords": [
+    "Pumat's",
+    "Shop"
+  ]
 }
