@@ -1,4 +1,6 @@
 const { db, Sequelize } = require('../config/db');
+const Category = require('./Category');
+const Rarity = require('./Rarity');
 
 const Item = db.define('items', {
   name: {
@@ -7,12 +9,16 @@ const Item = db.define('items', {
   price: {
     type: Sequelize.INTEGER,
   },
-  categoryID: {
-    type: Sequelize.INTEGER,
-  },
-  rarityID: {
-    type: Sequelize.INTEGER,
-  },
+});
+
+Category.hasMany(Item);
+Item.belongsTo(Category, {
+  foreignKey: 'categoryId',
+});
+
+Rarity.hasMany(Item);
+Item.belongsTo(Rarity, {
+  foreignKey: 'rarityId',
 });
 
 // Item.sync({ force: true });

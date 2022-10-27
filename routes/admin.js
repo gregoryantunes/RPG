@@ -44,7 +44,7 @@ router.get('/additem', itemController.itemCreateGet);
 router.post('/additem', itemController.itemCreatePost);
 
 // Delete
-// router.post('/item/delete', itemController.itemDelete);
+router.post('/item/delete', itemController.itemDelete);
 
 // Editor
 // router.get('/item/edit/:id', itemController.itemUpdateGet);
